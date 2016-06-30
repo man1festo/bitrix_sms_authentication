@@ -1,0 +1,123 @@
+#sms4b-auth-sms{
+ 	position:relative;
+	display:inline-block;
+	border:1px solid #ccc;
+	padding:20px 20px 10px 15px;
+	border-radius:6px;
+	background: #fff;
+    background: -moz-linear-gradient(top, #ffffff 2px, #fafafa 2%, #ededed 98%);
+    background: -webkit-gradient(linear,top, color-stop(2px,#b5bdc8),color-stop(2%,#828c95), color-stop(98%,#28343b));
+    background: -webkit-linear-gradient(top, #ffffff 2px, #fafafa 2%, #ededed 98%);
+    background: -o-linear-gradient(top, #ffffff 2px, #fafafa 2%, #ededed 98%);
+    background: -ms-linear-gradient(top, #ffffff 2px, #fafafa 2%, #ededed 98%);
+    background: linear-gradient(top, #ffffff 2px, #fafafa 2%, #ededed 98%);
+    max-width:270px;
+}
+#sms4b-auth-sms h3{font:24px/24px arial;color:#333;margin:0 0 20px;padding:0;}
+#sms4b-auth-sms form{margin:0;padding:0;}
+#sms4b-auth-sms span{color:#000;font-size:12px;line-height:24px;}
+#sms4b-auth-sms span.phone-exemple{color:#666;margin:0 0 10px;display:inline-block;}
+#sms4b-auth-sms input[type="text"]{
+	border-radius:3px;
+	border:1px solid #cecece;
+	background:#fff;
+	color:#000;
+	font:18px/38px arial;
+	width:240px;
+	padding:0 10px;
+	height:36px;
+	vertical-align:middle;
+}
+#sms4b-auth-sms input[type="text"][disabled]{background:#f2f2f2;color:#999;}
+#sms4b-auth-sms .btn{border:1px solid;border-radius:4px;}
+#sms4b-auth-sms .btn-green{
+	border-color:#517328 #55752e #567630;
+	color:#fff;
+	text-shadow:0 -1px 1px #1e4006;
+	background:#7ca748;
+	background: -moz-linear-gradient(top, #7ca748 1px, #6a9b30 2%, #5a852a 98%);
+	background: -webkit-gradient(linear,top, color-stop(1px,#7ca748),color-stop(2%,#6a9b30), color-stop(98%,#5a852a));
+	background: -webkit-linear-gradient(top, #7ca748 1px, #6a9b30 2%, #5a852a 98%);
+	background: -o-linear-gradient(top, #7ca748 1px, #6a9b30 2%, #5a852a 98%);
+	background: -ms-linear-gradient(top, #7ca748 1px, #6a9b30 2%, #5a852a 98%);
+	background: linear-gradient(top, #7ca748 1px, #6a9b30 2%, #5a852a 98%);
+	padding:8px 5px;
+	cursor:pointer;
+	font-size:14px;
+	line-height:18px;
+	width:262px;
+	text-align:center;
+}
+#sms4b-auth-sms .btn-green:hover{background:#7ca748;border-color:#567630;} 
+#sms4b-auth-sms .btn-green:active{
+	background: -moz-linear-gradient(top,#5a852a 2%, #6a9b30 98%);
+	background: -webkit-gradient(linear,top,color-stop(2%,#5a852a), color-stop(98%,#6a9b30));
+	background: -webkit-linear-gradient(top,#5a852a 2%, #6a9b30 98%);
+	background: -o-linear-gradient(top, #5a852a 2%, #6a9b30 98%);
+	background: -ms-linear-gradient(top,#5a852a 2%, #6a9b30 98%);
+	background: linear-gradient(top,#5a852a 2%, #6a9b30 98%);
+}
+#sms4b-auth-sms .technology span{color:#666;font:11px/11px arial;}
+#sms4b-auth-sms .redact-number{margin: 0 0 15px;} 
+#sms4b-auth-sms .technology{padding:20px 0 0 ;}
+#sms4b-auth-sms .technology a{color:#1122cc;font:11px/11px arial;}
+#sms4b-auth-sms .technology a:hover{text-decoration:none;}
+#sms4b-auth-sms #editphon{font-size:12px;color:#0033cc;text-decoration:underline;line-height:23px;}
+#sms4b-auth-sms #editphon:hover{text-decoration:none;}
+#sms4b-auth-sms #sms{margin:0 0 10px;}
+#sms4b-auth-sms .popap{
+	position:absolute;
+	right:0;
+	top:0;
+	border:1px solid #dc7474;
+	border-radius:3px;
+	background:#ffe5e5;
+	color:#d92b2b;
+	font:12px/15px arial;
+	padding:6px 10px 5px 8px;
+	box-shadow:-1px 1px 1px #cecece;
+	max-width:375px;
+}
+#sms4b-auth-sms .popap .corner{
+	position:absolute;
+	top:50%;
+	left:-12px;
+	width:17px;
+	height:16px;
+	background:url("images/corner.png") no-repeat 0 0;
+	margin:-8px 0 0 0;
+}
+#sms4b-auth-sms .popap.phone{right:-185px;top:90px;}
+#sms4b-auth-sms .popap.sms{right:-160px; top:188px;}
+#sms4b-auth-sms .popap.sms2{right:-160px; top:136px;}
+#sms4b-auth-sms .popap.form{right:-400px;top:30px;}
+#sms4b-auth-sms form a#agen{
+	color:#0033cc;
+	text-decoration:underline;
+}
+#sms4b-auth-sms form a#agen:hover{
+	text-decoration:none;
+}
+#sms4b-auth-sms form a#aone{
+	color:#0033cc;
+	text-decoration:underline;
+}
+#sms4b-auth-sms form a#aone:hover{
+	text-decoration:none;
+}
+#sms4b-auth-sms form a#asms{
+	color:#0033cc;
+	text-decoration:underline;
+}
+#sms4b-auth-sms form a#asms:hover{
+	text-decoration:none;
+}
+#preloader{
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  display: none;
+  top: 40%;
+  left: 43%;
+	background: url('images/preloader.gif');
+}
